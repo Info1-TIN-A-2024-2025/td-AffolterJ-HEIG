@@ -16,7 +16,7 @@ int main(int argc, const char *argv[])
 	// Contrôle de la valeur de la résistance
 	if (r <= 0)
 	{
-		printf("La valeur de R est erronée, elle doit être plus grande que 0\n");
+		printf("La valeur de R est erronée, elle doit être plus grande que 0.\n");
 
 		return 1;
 	}
@@ -29,6 +29,6 @@ int main(int argc, const char *argv[])
 	i = u / r;
 	// Affichage du courant
 	printf("\n Le courant dans la résistance est de %.3E [A]\n", i);
-
+0
 	return 0;
 }
